@@ -1,12 +1,12 @@
 <?php
 
-$z = 0;
+$x = 0;
 $y = 5;
 $z = 10;
 
 // TODO:
 // If $z < $y < $z then echo "{$x} < {$y} < {$z}\n";
-if ($x < $y < $z) {
+if ($x < $y && $y  < $z) {
 	echo "{$x} < {$y} < {$z}\n";
 }
 
@@ -15,7 +15,7 @@ if ($x < $y < $z) {
 // then echo the result as a sentence "0 is less than {$x} OR {$x} is less than 10".
 
 if (0 < $x || $x < 10) {
-	echo "0 is less than {$x} OR {$x} is less than 10";
+	echo "0 is less than {$x} OR {$x} is less than 10\n";
 }
 
 // TODO:
