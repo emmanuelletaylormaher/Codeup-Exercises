@@ -1,6 +1,6 @@
 <? php
 
-$number = 100;
+$number = 2;
 
 do {
 	echo "{$number}\n";
