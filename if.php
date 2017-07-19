@@ -35,11 +35,11 @@ if ($b === $c) {
 }
 
 // TODO: Replace `true` with the correct comparison
-if (true) {
+if (b !== c) {
     echo "$b is not equal to $c\n";
 }
 
 // TODO: Replace `true` with the correct comparison
-if (true) {
+if (b !=== c) {
     echo "$b is not identical to $c\n";
 }
