@@ -10,7 +10,7 @@ if (! is_numeric($startingNumber)) {
 fwrite(STDOUT, "What is the ending number? ");
 $endingNumber = trim(fgets(STDIN));
 if (! is_numeric($startingNumber)) {
-	echo "You must enter a number!".PHP_EOL;
+	echo "You must enter a number!".PHP_EOLva;
 	exit;
 }
 
