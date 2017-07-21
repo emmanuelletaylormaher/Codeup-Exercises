@@ -33,3 +33,5 @@ echo multiply(222, 3).PHP_EOL;
 echo "++++++".PHP_EOL;
 echo divide(1332, 2).PHP_EOL;
 echo "++++++".PHP_EOL;
+echo modulus(1333, 667).PHP_EOL;
+echo "++++++".PHP_EOL;
