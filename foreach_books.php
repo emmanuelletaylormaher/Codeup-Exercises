@@ -34,6 +34,21 @@ foreach ($books as $key => $book) {
 		foreach ($book as $key => $stats) {
 			echo "{$key}: {$stats}".PHP_EOL;	
 		}
+		echo"+++++++++++++++++++++".PHP_EOL;
 	}
-	PHP_EOL.PHP_EOL;
 }
+
+//create a new loop that outputs the average page length and year of publication of the books in the books array
+
+//declare variables for average page length and average year
+$averagePage = 0;
+$averageYear = 0;
+
+foreach ($books as $key => $book){
+	$averagePage += $book["pages"];
+	$averageYear += $book["published"];
+}
+$averagePage = $averagePage/4;
+$averageYear = round($averageYear/4);
+echo "The average page length of each book is {$averagePage}".PHP_EOL;
+echo "The average year published of each book is {$averageYear}".PHP_EOL;
