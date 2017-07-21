@@ -7,17 +7,25 @@ function add($a, $b)
 
 function subtract($a, $b)
 {
-    // Add code here
+    return $a - $b;
 }
 
 function multiply($a, $b)
 {
-    // Add code here
+    return $a * $b;
 }
 
 function divide($a, $b)
 {
-    // Add code here
+    return $a / $b;
 }
 
-// Add code to test your functions here
+
+echo add(333, 333).PHP_EOL;
+echo "++++++".PHP_EOL;
+echo subtract(999, 333).PHP_EOL;
+echo "++++++".PHP_EOL;
+echo multiply(222, 3).PHP_EOL;
+echo "++++++".PHP_EOL;
+echo divide(1332, 2).PHP_EOL;
+echo "++++++".PHP_EOL;
