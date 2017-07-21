@@ -20,6 +20,10 @@ function divide($a, $b)
     return $a / $b;
 }
 
+function modulus($a, $b){
+	return $a % $b;
+}
+
 
 echo add(333, 333).PHP_EOL;
 echo "++++++".PHP_EOL;
