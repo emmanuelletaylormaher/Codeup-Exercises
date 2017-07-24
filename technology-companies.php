@@ -58,8 +58,13 @@ $companies = [
 
 foreach ($companies as $key => $company) {
     asort($company);
+<<<<<<< HEAD
 
     $companies[$key] = $company;
+=======
+    $sorted = $company;
+    $companies[$key] = $sorted;
+>>>>>>> 38dcb6e4c5e30d142fff27190cfaa8c6b4d03ed6
 }
 print_r($companies);
 
