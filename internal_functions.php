@@ -19,7 +19,7 @@ function inspect($input) {
 				if ($value == "") {
 					echo "This array is empty.".PHP_EOL;
 				} else {
-			 		echo "Value {$key} reads as {$value}.".PHP_EOL;	
+			 		echo "Key {$key} reads as {$value}.".PHP_EOL;	
 				}
 			}
 		break;
