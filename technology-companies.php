@@ -47,17 +47,27 @@ $companies = [
 
 // Add code to output the $companies array in its current form.
 
-foreach ($companies as $key => $company) {
-    echo "{$key}".PHP_EOL;
-}
-
-print_r($companies);
+// print_r($companies);
 
 // Sort the $companies array by company name and output the results.
 
-ksort($companies);
-print_r($companies);
+// ksort($companies);
+// print_r($companies);
 
 // Sort the people in each company alphabetically. You will need to use a foreach loop and will need to reassign each inner array after sorting. Output the result.
 
+foreach ($companies as $key => $company) {
+    asort($company);
+    $sorted = $company;
+    $companies[$key] = $sorted;
+}
+print_r($companies);
+
 // Sort the companies from "biggest" to "smallest". This may be easier than you think, but be sure you don't loose the company names!
+
+// foreach ($companies as $key => $company) {
+//     $companySize = count($company);
+//     echo "{$key} => {$companySize}".PHP_EOL;
+// }
+// arsort($companies);
+// print_r($companies);
