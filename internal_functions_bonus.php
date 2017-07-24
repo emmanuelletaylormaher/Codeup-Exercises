@@ -15,4 +15,4 @@ function howMany($input){
 	}
 }
 
-howMany("wowowowowowowowowowow");
+howMany("emmanuelle");
