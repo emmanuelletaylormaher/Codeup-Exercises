@@ -3,7 +3,7 @@
 //function that takes in a string and regardless of the case of the input string characters, returns the string with only the first letter capitalized.
 
 function capitalize($input) {
- 	echo ucfirst($input).PHP_EOL;
+ 	return ucfirst($input).PHP_EOL;
 }
 
 capitalize("eggs");
@@ -13,9 +13,9 @@ capitalize("eggs");
 
 function sayHi ($firstName, $lastName) {
 	if (is_string($firstName) && is_string($lastName)) {
-		echo "Hello, {$firstName} {$lastName}!";
+		return "Hello, {$firstName} {$lastName}!";
 	} else {
-		echo "Sorry, two valid names were not given.";
+		return "Sorry, two valid names were not given.";
 	}
 }
 
