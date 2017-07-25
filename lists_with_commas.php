@@ -17,7 +17,7 @@ $famousFakeArray = explode(", ", $famousFakePhysicists);
  		
  	$humanizedList = implode(", ", $array);
 
- 	echo "Some of the most famous fictional theoretical physicists are {$humanizedList}.";
+ 	echo "Some of the most famous fictional theoretical physicists are {$humanizedList}.".PHP_EOL;
  }
 
  humanizedList($famousFakeArray, true);
