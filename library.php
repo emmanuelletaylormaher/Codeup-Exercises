@@ -12,6 +12,7 @@ function isEven($input){
 		}
 
 	} else {
+		return false;
 		echo "Please enter a number.".PHP_EOL;
 	}
 }
@@ -42,6 +43,7 @@ function isVowel($input){
 
 	} else {
 		echo "Please enter a string.".PHP_EOL;
+		return false;
 	}
 }
 
@@ -129,7 +131,7 @@ function reverse($input){
 			return $stringSplit;
 			break;
 		case "array":
-			krsort($input);
+			rsort($input);
 			return $input;
 			break;
 		default:
