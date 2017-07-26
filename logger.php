@@ -11,12 +11,12 @@ function logMessage($logLevel, $message)
     fwrite($handle, $message);
 }
 
-function logInfo(){
-	logMessage("INFO", "This is an info message.");	
+function logInfo($message){
+	logMessage("INFO", $message);	
 }
 
-function logError(){
-	logMessage("ERROR", "This is an info message.");
+function logError($message){
+	logMessage("ERROR", $message);
 }
 
 
